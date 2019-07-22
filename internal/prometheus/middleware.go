@@ -2,7 +2,7 @@ package prometheus
 
 import (
 	"net/http"
-	"bitbucket.org/snapmartinc/router/internal/chi"
+	"router/internal/chi"
 	"strconv"
 	"time"
 
