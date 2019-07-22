@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"bitbucket.org/snapmartinc/logger"
-	"router/internal/accesslog"
+	"bitbucket.org/snapmartinc/router/internal/accesslog"
 )
 
 // AccessLogOptions for request or response body
