@@ -1,0 +1,20 @@
+package: bitbucket.org/snapmartinc/router
+import:
+- package: github.com/go-chi/chi
+  version: ^3.3.2
+  subpackages:
+  - middleware
+- package: github.com/prometheus/client_golang
+  subpackages:
+  - prometheus
+  - prometheus/promhttp
+- package: github.com/newrelic/go-agent
+  version: ^2.1.0
+- package: bitbucket.org/snapmartinc/user-service-client
+  version: ^1.2.0
+- package: bitbucket.org/snapmartinc/logger
+  version: ^1.5.0
+- package: bitbucket.org/snapmartinc/trace
+  version: ">=1.2.0, <3"
+- package: github.com/felixge/httpsnoop
+  version: ^1.0.0
