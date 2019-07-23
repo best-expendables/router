@@ -1,9 +1,9 @@
 package router
 
 import (
+	"bitbucket.org/snapmartinc/router/middleware"
 	"errors"
 	"os"
-	"router/middleware"
 
 	"bitbucket.org/snapmartinc/logger"
 
@@ -15,7 +15,6 @@ type (
 	Configuration struct {
 		// LoggerFactory using in ContextLogger middleware
 		LoggerFactory logger.Factory
-
 
 		// PanicHandler optional parameter
 		// On nil panic returns only 500 status code

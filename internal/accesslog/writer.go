@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"router/pkg/net"
+	"bitbucket.org/snapmartinc/router/pkg/net"
 )
 
 type (

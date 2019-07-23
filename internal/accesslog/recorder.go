@@ -1,9 +1,9 @@
 package accesslog
 
 import (
+	"bitbucket.org/snapmartinc/router/pkg/net"
 	"bytes"
 	"net/http"
-	"router/pkg/net"
 )
 
 type responseRecorder struct {
