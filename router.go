@@ -3,6 +3,7 @@ package router
 import (
 	"bitbucket.org/snapmartinc/router/middleware"
 	"errors"
+	newrelic "github.com/newrelic/go-agent"
 	"os"
 
 	"bitbucket.org/snapmartinc/logger"
@@ -15,6 +16,9 @@ type (
 	Configuration struct {
 		// LoggerFactory using in ContextLogger middleware
 		LoggerFactory logger.Factory
+
+		// NewrelicApp
+		NewrelicApp newrelic.Application
 
 		// PanicHandler optional parameter
 		// On nil panic returns only 500 status code
@@ -43,6 +47,7 @@ func New(cfg Configuration) (chi.Router, error) {
 		middleware.RequestID(prefix),
 		middleware.Authentication,
 		middleware.ContextLogger(cfg.LoggerFactory),
+		middleware.Newrelic(cfg.NewrelicApp),
 		middleware.Recoverer(cfg.PanicHandler),
 		middleware.Prometheus(),
 	)
