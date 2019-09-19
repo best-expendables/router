@@ -11,10 +11,10 @@ import (
 func Authentication(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		user := userclient.User{
-			Id:       r.Header.Get("X-LEL-User-ID"),
-			Username: r.Header.Get("X-LEL-User-Name"),
-			Email:    r.Header.Get("X-LEL-User-Email"),
-			Roles:    strings.Split(r.Header.Get("X-LEL-User-Roles"), ","),
+			Id:       r.Header.Get("X-Sm-User-ID"),
+			Username: r.Header.Get("X-Sm-User-Name"),
+			Email:    r.Header.Get("X-Sm-User-Email"),
+			Roles:    strings.Split(r.Header.Get("X-Sm-User-Roles"), ","),
 		}
 
 		if user.Id == "" {
