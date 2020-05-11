@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"bitbucket.org/snapmartinc/logger"
+	"github.com/best-expendables/logger"
 )
 
 // ContextLogger initialize logger entry for request context

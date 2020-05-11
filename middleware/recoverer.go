@@ -6,7 +6,7 @@ import (
 
 	"fmt"
 
-	"bitbucket.org/snapmartinc/logger"
+	"github.com/best-expendables/logger"
 	"github.com/newrelic/go-agent"
 )
 

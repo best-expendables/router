@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"bitbucket.org/snapmartinc/logger"
-	"bitbucket.org/snapmartinc/trace"
+	"github.com/best-expendables/logger"
+	"github.com/best-expendables/trace"
 )
 
 func TestContextLogger(t *testing.T) {

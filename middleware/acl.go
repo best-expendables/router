@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"bitbucket.org/snapmartinc/user-service-client"
+	"github.com/best-expendables/user-service-client"
 )
 
 type (

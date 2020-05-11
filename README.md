@@ -3,7 +3,7 @@
 # Install
 ```yaml
 import:
-- package: bitbucket.org/snapmartinc/router
+- package: github.com/best-expendables/router
   version: x.x.x
 ```
 
@@ -69,7 +69,7 @@ You have to follow this order of middlewares on  for router initialization:
 ### Panic recovery
 For the panic case, recoverer does not responsible for error response, it only sends HTTP response code 500.
 For response with error messages you have to define panic handler and pass it as argument.
-[Example](https://bitbucket.org/snapmartinc/repos/router/browse/_examples/01_recoverer/main.go)   
+[Example](https://github.com/best-expendables/repos/router/browse/_examples/01_recoverer/main.go)   
 
 
 ### AccessLog

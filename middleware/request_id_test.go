@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"bitbucket.org/snapmartinc/trace"
+	"github.com/best-expendables/trace"
 )
 
 func TestRequestID_FromHeaders(t *testing.T) {

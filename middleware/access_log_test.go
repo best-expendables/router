@@ -11,8 +11,8 @@ import (
 
 	"io/ioutil"
 
-	"bitbucket.org/snapmartinc/logger"
-	"bitbucket.org/snapmartinc/trace"
+	"github.com/best-expendables/logger"
+	"github.com/best-expendables/trace"
 )
 
 type LogContent struct {

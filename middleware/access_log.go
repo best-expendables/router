@@ -3,8 +3,8 @@ package middleware
 import (
 	"net/http"
 
-	"bitbucket.org/snapmartinc/logger"
-	"bitbucket.org/snapmartinc/router/internal/accesslog"
+	"github.com/best-expendables/logger"
+	"github.com/best-expendables/router/internal/accesslog"
 )
 
 // AccessLogOptions for request or response body

@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	lgoprometheus "bitbucket.org/snapmartinc/router/internal/prometheus"
+	lgoprometheus "github.com/best-expendables/router/internal/prometheus"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

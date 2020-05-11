@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"bitbucket.org/snapmartinc/user-service-client"
+	"github.com/best-expendables/user-service-client"
 )
 
 func TestAuthorized(t *testing.T) {

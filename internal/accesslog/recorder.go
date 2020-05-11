@@ -1,7 +1,7 @@
 package accesslog
 
 import (
-	"bitbucket.org/snapmartinc/router/pkg/net"
+	"github.com/best-expendables/router/pkg/net"
 	"bytes"
 	"net/http"
 )

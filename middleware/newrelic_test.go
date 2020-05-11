@@ -6,9 +6,9 @@ import (
 
 	"net/http/httptest"
 
-	"bitbucket.org/snapmartinc/logger"
-	"bitbucket.org/snapmartinc/newrelic-context/nrmock"
-	"bitbucket.org/snapmartinc/trace"
+	"github.com/best-expendables/logger"
+	"github.com/best-expendables/newrelic-context/nrmock"
+	"github.com/best-expendables/trace"
 	"github.com/go-chi/chi"
 )
 

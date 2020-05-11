@@ -3,10 +3,10 @@ package middleware
 import (
 	"net/http"
 
-	"bitbucket.org/snapmartinc/router/internal/chi"
+	"github.com/best-expendables/router/internal/chi"
 
-	"bitbucket.org/snapmartinc/logger"
-	"bitbucket.org/snapmartinc/trace"
+	"github.com/best-expendables/logger"
+	"github.com/best-expendables/trace"
 	"github.com/newrelic/go-agent"
 )
 

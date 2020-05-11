@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"bitbucket.org/snapmartinc/logger"
+	"github.com/best-expendables/logger"
 )
 
 func TestNew(t *testing.T) {

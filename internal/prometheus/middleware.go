@@ -1,7 +1,7 @@
 package prometheus
 
 import (
-	"bitbucket.org/snapmartinc/router/internal/chi"
+	"github.com/best-expendables/router/internal/chi"
 	"net/http"
 	"strconv"
 	"time"

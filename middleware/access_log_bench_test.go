@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"bitbucket.org/snapmartinc/logger"
+	"github.com/best-expendables/logger"
 )
 
 func BenchmarkAccessLog(b *testing.B) {

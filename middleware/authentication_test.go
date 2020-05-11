@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"bitbucket.org/snapmartinc/user-service-client"
+	"github.com/best-expendables/user-service-client"
 )
 
 func TestAuthentication_Success(t *testing.T) {

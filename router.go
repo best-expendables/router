@@ -1,12 +1,12 @@
 package router
 
 import (
-	"bitbucket.org/snapmartinc/router/middleware"
+	"github.com/best-expendables/router/middleware"
 	"errors"
 	newrelic "github.com/newrelic/go-agent"
 	"os"
 
-	"bitbucket.org/snapmartinc/logger"
+	"github.com/best-expendables/logger"
 
 	"github.com/go-chi/chi"
 )

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"bitbucket.org/snapmartinc/logger"
-	"bitbucket.org/snapmartinc/router"
-	"bitbucket.org/snapmartinc/router/middleware"
-	"bitbucket.org/snapmartinc/user-service-client"
+	"github.com/best-expendables/logger"
+	"github.com/best-expendables/router"
+	"github.com/best-expendables/router/middleware"
+	"github.com/best-expendables/user-service-client"
 	"github.com/go-chi/chi"
 	"net/http"
 )

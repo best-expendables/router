@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"bitbucket.org/snapmartinc/logger"
-	"bitbucket.org/snapmartinc/router"
-	"bitbucket.org/snapmartinc/router/middleware"
+	"github.com/best-expendables/logger"
+	"github.com/best-expendables/router"
+	"github.com/best-expendables/router/middleware"
 )
 
 type (

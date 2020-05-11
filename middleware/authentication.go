@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"bitbucket.org/snapmartinc/user-service-client"
+	"github.com/best-expendables/user-service-client"
 )
 
 // Authentication looking for user in headers and inject user to context
